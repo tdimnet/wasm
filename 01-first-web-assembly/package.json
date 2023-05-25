@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp --gulpfile ./build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wasm/studio-utils": "*",
+    "graceful-fs": "^4.2.2",
+    "gulp": "3.9.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

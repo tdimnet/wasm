@@ -2,3 +2,5 @@
 .DS_STORE
 .*.swp
 
+node_modules
+
