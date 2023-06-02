@@ -8,7 +8,7 @@
     "asbuild:debug": "asc assembly/index.ts --target debug",
     "asbuild:release": "asc assembly/index.ts --target release",
     "asbuild": "npm run asbuild:debug && npm run asbuild:release",
-    "start": "npx serve ."
+    "start": "serve ."
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,8 @@
     "@assemblyscript/loader": "^0.27.5"
   },
   "devDependencies": {
-    "assemblyscript": "^0.27.5"
+    "assemblyscript": "^0.27.5",
+    "serve": "^14.2.0"
   },
   "type": "module",
   "exports": {
